@@ -1,0 +1,11 @@
+{
+    "name": "com.pucpr.scripttemplates",
+    "displayName": "Script Templates",
+    "description": "A Unity tool that adds context menu options for creating scripts from predefined templates, streamlining script creation workflow.",
+    "version": "1.0.0",
+    "unity": "2019.3",
+    "changelogUrl": "",
+    "_upm": {
+    "changelog": "New Templates:\n\n- Empty\n- Singleton\n- Enum\n"
+  }
+}
