@@ -1,3 +1,13 @@
+## [1.0.1] - 2025-06-09
+
+### Added
+- CONTRIBUTING
+- UserManual
+- Issues Templates
+
+### Modified
+-Readme
+
 ## [1.0.0] - 2025-05-29
 
 ### Added
