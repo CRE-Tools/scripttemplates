@@ -1,0 +1,7 @@
+using UnityEngine;
+
+[CreateAssetMenu(fileName = "New_" + "#SCRIPTNAME#", menuName = "ScriptableObject/#SCRIPTNAME#")]
+public class #SCRIPTNAME# : ScriptableObject
+{
+#NOTRIM#
+}
