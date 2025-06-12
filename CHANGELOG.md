@@ -1,3 +1,15 @@
+## [1.0.2] - 2025-06-12
+
+### Added
+- New Templates:
+    - Interface
+    - ScriptableObjects
+    - Struct
+- Package author ref
+
+### Modified
+- Singleton
+
 ## [1.0.1] - 2025-06-09
 
 ### Added
@@ -6,7 +18,7 @@
 - Issues Templates
 
 ### Modified
--Readme
+- Readme
 
 ## [1.0.0] - 2025-05-29
 

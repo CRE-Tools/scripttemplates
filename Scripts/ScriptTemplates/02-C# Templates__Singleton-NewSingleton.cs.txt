@@ -5,17 +5,16 @@ public class #SCRIPTNAME# : MonoBehaviour
 #region Singleton
     private static #SCRIPTNAME# instance;
     public static #SCRIPTNAME# Instance() => instance;
-
-    private void Awake()
+    public void SetupSingleton()
     {
         if (instance == null) instance = this;
         else Destroy(this);
-        OnAwake();
     }
 #endregion
 
-    void OnAwake()
+    private void Awake()
     {
-    #NOTRIM#
+       SetupSingleton();
+
     }
 }
