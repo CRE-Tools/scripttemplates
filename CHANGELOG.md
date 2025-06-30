@@ -1,3 +1,23 @@
+## [2.0.0] - 2025-06-30
+
+### Added
+- New template management system with enhanced flexibility
+- Support for custom template directories
+- Template metadata system for better organization
+- Advanced template variables and placeholders
+- Template validation system
+
+### Modified
+- Completely refactored core template engine
+- Improved template parsing and processing
+- Enhanced error handling and validation
+- Updated all existing templates to use new metadata system
+- Improved template discovery and loading mechanism
+
+### Removed
+- Legacy template format support
+- Deprecated template methods
+
 ## [1.0.2] - 2025-06-12
 
 ### Added

@@ -1,8 +1,10 @@
 {
-    "name": "pucpr.scripttemplates.runtime",
-    "rootNamespace": "PUCPR.ScriptTemplates",
+    "name": "pucpr.scripttemplates.editor",
+    "rootNamespace": "PUCPR.ScriptTemplates.Editor",
     "references": [],
-    "includePlatforms": [],
+    "includePlatforms": [
+        "Editor"
+    ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
