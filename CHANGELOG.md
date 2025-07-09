@@ -1,3 +1,8 @@
+## [2.1.0] - 2025-07-09
+
+## Added
+- New multi script creator
+
 ## [2.0.0] - 2025-06-30
 
 ### Added

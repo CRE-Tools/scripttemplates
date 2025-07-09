@@ -1,4 +1,6 @@
+using System.Reflection;
 using UnityEditor;
+using UnityEngine;
 using static PUCPR.ScriptTemplates.Editor.Static_Variables;
 
 namespace PUCPR.ScriptTemplates.Editor
@@ -17,6 +19,5 @@ namespace PUCPR.ScriptTemplates.Editor
 
             ProjectWindowUtil.CreateScriptAssetFromTemplateFile(templatePath, $"New{fileName}.cs");
         }
-
     }
 }
