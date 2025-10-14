@@ -159,7 +159,6 @@ namespace PUCPR.ScriptTemplates.Editor
                 string className = _name + scriptTemplates[i];
                 string file = path + className + type_cSharp;
 
-
                 if (!FileExists(file, className))
                 {
                     ValidateDirectory(path);
@@ -201,7 +200,9 @@ namespace PUCPR.ScriptTemplates.Editor
 
         private string GetCode(string file)
         {
-            var textAsset = (TextAsset)AssetDatabase.LoadAssetAtPath(msc_Path + file + type_txt, typeof(TextAsset));
+            var path = $"{msc_Path}/{file}{type_txt}";
+            var textAsset = (TextAsset)AssetDatabase.LoadAssetAtPath(path, typeof(TextAsset));
+
             string text = textAsset.text;
 
             text = text.Replace("#NOTRIM#", "");

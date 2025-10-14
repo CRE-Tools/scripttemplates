@@ -6,7 +6,7 @@ namespace PUCPR.ScriptTemplates.Editor
         public const string _00INTERN = "00_ScriptCreator";
 
         /// Path to template files
-        public const string FILE_PATH_BASE = "Packages/ScriptTemplates/Templates/";
+        public const string FILE_PATH_BASE = "Packages/com.pucpr.scripttemplates/Templates/";
 
         /// Template File Names
         public const string SINGLETON = "SingletonTemplate";
