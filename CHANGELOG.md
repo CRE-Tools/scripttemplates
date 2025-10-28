@@ -1,11 +1,16 @@
+## [2.2.0] - 2025-10-28
+
+### Modified
+- Documentation implemented
+
 ## [2.1.1] - 2025-10-14
 
-## Modified
+### Modified
 - bugfix at paths
 
 ## [2.1.0] - 2025-07-09
 
-## Added
+### Added
 - New multi script creator
 
 ## [2.0.0] - 2025-06-30
