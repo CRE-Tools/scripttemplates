@@ -1,3 +1,8 @@
+## [2.2.1] - 2025-11-10
+
+### Modified
+- Fix documentation and readme
+
 ## [2.2.0] - 2025-10-28
 
 ### Modified
