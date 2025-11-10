@@ -2,7 +2,7 @@
 > <a href="/Documentation~/UserManual.pdf">View this manual as PDF</a>
 
 <h1 align="center">Script Templates - User Manual</h1>
-<p align="right">v2.2.0</p>
+<p align="right">v2.2.1</p>
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -31,10 +31,10 @@ Script Templates is a Unity package designed to streamline your development work
 
 ### Features
 
-- **Multiple Template Types**: Includes templates for common script types like MonoBehaviours, ScriptableObjects, Singletons, and more.
+- **Multiple Template Types**: Includes templates for common script types like Interfaces, ScriptableObjects, Singletons, and more.
 - **Context Menu Integration**: Easily accessible through Unity's right-click context menu in the Project window.
-- **Custom Templates**: Create and use your own custom templates.
-- **MultiScriptCreator**: Create multiple scripts at once with consistent naming.
+- **Custom Templates**: Create and use your own custom templates for MultiScriptCreator.
+- **MultiScriptCreator**: Create multiple scripts at once with consistent naming, based on custom templates.
 - **Seamless Unity Integration**: Works with Unity's existing workflow and project structure.
 
 ### Requirements
@@ -129,7 +129,7 @@ The MultiScriptCreator allows you to create multiple scripts at once with consis
 1. Right-click in the Project window
 2. Select `Create Script > MultiScriptCreator`
    - This will create a folder `Assets/MultiScriptCreator` if it doesn't exist
-3. Create template files in the `Assets/MultiScriptCreator` folder with the following structure:
+3. Create custom template files in the `Assets/MultiScriptCreator` folder with the following structure:
 
    **Example 1: Interface Template (IExampleInterface.txt)**
    ```csharp
